@@ -10,10 +10,10 @@ The dataset we are working with is from the UCI Machine Learning Repository [You
 
 First we read all the datasets and combine them into one for ease of use. 
 
-    katy=read.csv("D:/Doucuments/MSc CS MI/Bot Detection/Dataset/YouTube-Spam-       Collection-v1/Youtube02-KatyPerry.csv",stringsAsFactors = FALSE)
+    katy=read.csv("D:/Doucuments/MSc CS MI/Bot Detection/Dataset/YouTube-Spam-Collection-v1/Youtube02-KatyPerry.csv",stringsAsFactors = FALSE)
     lmfao=read.csv("D:/Doucuments/MSc CS MI/Bot Detection/Dataset/YouTube-Spam-Collection-v1/Youtube03-LMFAO.csv",stringsAsFactors = FALSE)
     eminem=read.csv("D:/Doucuments/MSc CS MI/Bot Detection/Dataset/YouTube-Spam-Collection-v1/Youtube04-Eminem.csv",stringsAsFactors = FALSE)
-    shakira=read.csv("D:/Doucuments/MSc CS MI/Bot Detection/Dataset/YouTube-Spam-      Collection-v1/Youtube05-Shakira.csv",stringsAsFactors = FALSE)
+    shakira=read.csv("D:/Doucuments/MSc CS MI/Bot Detection/Dataset/YouTube-Spam-Collection-v1/Youtube05-Shakira.csv",stringsAsFactors = FALSE)
     train=rbind(katy,lmfao,eminem,shakira)
     
 Now comes the hard part of cleaning the data. 
